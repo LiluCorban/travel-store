@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/travel-store/static/css/main.275765dc.css",
+    "main.js": "/travel-store/static/js/main.bc9aed05.js",
+    "static/media/banner3.jpg": "/travel-store/static/media/banner3.eb495a9d2fa89c4d13a3.jpg",
+    "static/media/banner2.jpg": "/travel-store/static/media/banner2.a111e7ad65065efb3b96.jpg",
+    "static/media/banner1.png": "/travel-store/static/media/banner1.eb0cb1be9e328d73703b.png",
+    "static/media/Ellipse1.png": "/travel-store/static/media/Ellipse1.62e52eafc9ce5dc46671.png",
+    "static/media/Ellipse2.png": "/travel-store/static/media/Ellipse2.45693eca4755b9358f67.png",
+    "static/media/place3.png": "/travel-store/static/media/place3.a8d2431ae35c5e6e3d80.png",
+    "static/media/place1.png": "/travel-store/static/media/place1.2a5e1f4c7b873d7aa230.png",
+    "static/media/place2.png": "/travel-store/static/media/place2.f1e645a35d3e2190b908.png",
+    "static/media/name.svg": "/travel-store/static/media/name.d193fa4711cafdccf06fec760c825d70.svg",
+    "static/media/logo.svg": "/travel-store/static/media/logo.c94e7b55bddd21c57515580faece4376.svg",
+    "static/media/basket.svg": "/travel-store/static/media/basket.d0c578a73a73f341651560e2affadd93.svg",
+    "static/media/user.svg": "/travel-store/static/media/user.ab6103c634860fe1861636c077dec5a8.svg",
+    "static/media/search.svg": "/travel-store/static/media/search.54bd5268b48481faced82db1f052a510.svg",
+    "index.html": "/travel-store/index.html",
+    "main.275765dc.css.map": "/travel-store/static/css/main.275765dc.css.map",
+    "main.bc9aed05.js.map": "/travel-store/static/js/main.bc9aed05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.275765dc.css",
+    "static/js/main.bc9aed05.js"
+  ]
+}
