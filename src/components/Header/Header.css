@@ -1,0 +1,63 @@
+
+
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 3% 0 3%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+
+}
+
+header .logo-block{
+    display: flex;
+    width: 10%;
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.5s ;
+}
+header nav a:hover{
+    transform: scale(1.5);
+}
+
+header .logo-block img{
+    width: 100px;
+}
+header .account-block{
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    text-align: center;
+
+}
+header .account-block a{
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    transition: 0.5s ;
+    margin-right: 10px;
+    width: 30%;
+}
+header .account-block a:hover{
+    transform: scale(1.5);
+}
+header .account-block img{
+    width: 20px;
+}

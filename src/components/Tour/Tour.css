@@ -1,0 +1,47 @@
+.tours{
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.tours h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+}
+.tours .card-hotel {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tours .card-hotel .card{
+    width: 30%;
+    border: 1px solid #FF715B;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tours .card-hotel .card img{
+    width: 100%;
+}
+.tours .card-hotel .card button{
+    background-color: #FF715B;
+    width: 50%;
+    border: none;
+
+    height: 40px;
+    transition: 0.5s;
+
+}
+.tours .card-hotel .card button a{
+    color: white;
+    text-decoration: none;
+
+}
+.tours .card-hotel .card button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}

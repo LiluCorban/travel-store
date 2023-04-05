@@ -1,0 +1,26 @@
+
+
+.banners-block{
+    padding-top: 2%;
+    position: relative;
+}
+.banners-block h1{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    z-index: 2;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70px;
+    text-align: start;
+    color: #FF715B;
+    backdrop-filter: sepia(90%);
+    margin: 0;
+   border: 10px solid white;
+
+}
+
+.banners-block img {
+    height: 400px;
+    width: 100%;
+    
+}

@@ -1,0 +1,11 @@
+
+
+.best-sell{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 1%;
+}
+.best-sell p{
+    margin: 0;
+}

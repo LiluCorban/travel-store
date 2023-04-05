@@ -1,0 +1,58 @@
+
+.offer-card{
+
+    width: 30%;
+    position: relative;
+}
+.offer-card img{
+    width: 80%;
+}
+.offer-card .offer-description{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top:85%;
+    left:20%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.76);
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+.offer-card .offer-description button{
+    background-color: #FF715B;
+
+    border: none;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+
+}
+.offer-card .offer-description button a{
+    color: white;
+    text-decoration: none;
+
+}
+.offer-card .offer-description button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+
+.offer-card .offer-description .price-block{
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+
+}
+.offer-card .offer-description .price-block h3{
+    margin: 0;
+}
+.offer-card .offer-description .price-block p{
+    margin: 0;
+}

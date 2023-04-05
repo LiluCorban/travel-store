@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.select-card{
+    display: flex;
+    padding: 5%;
+}
+.select-card .offer-description{
+     padding: 5%;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+}
+.select-card .offer-description .price-block{
+    text-align: start;
+}
+.select-card button{
+    margin-top:5%;
+    background-color: #FF715B;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.5s;
+}
+.select-card button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+
+
+.select-card .offer-description .price-block select.box {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #1c87c9;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+}

@@ -1,0 +1,45 @@
+
+.bestsellers{
+    display: flex;
+    padding: 5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.bestsellers .description-block{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10% 1% 1% 1%;
+    align-items: start;
+    text-align: start;
+    width: 30%;
+
+}
+.bestsellers .description-block h2{
+    font-size: 30px;
+    color: #FF715B;
+}
+
+.bestsellers .description-block button{
+    margin-top:5%;
+    background-color: #FF715B;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.5s;
+    width: 50%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.bestsellers .description-block button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+
+}
+
+
+.bestsellers .description-block button a{
+    text-decoration: none;
+    color: white;
+}
